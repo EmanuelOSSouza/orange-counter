@@ -1,9 +1,11 @@
 # Orange Counter
 
-**Objetivo**
+### Objetivo:
+
+
 Implementar sistema de contagem de laranjas de acordo com a [imagem fornecida](https://github.com/EmanuelOSSouza/orange-counter/blob/main/src/resource/image1.jfif?raw=true)
 
-**Parâmetros de pontuação:**
+### Parâmetros de pontuação:
 
 - 3.0 >> contagem de 1 até 4 laranjas
 - 5.0 >> contagem de 5 até 7 laranjas
@@ -11,7 +13,7 @@ Implementar sistema de contagem de laranjas de acordo com a [imagem fornecida](h
 - 8.0 >> contagem acima de 10 laranjas 
 - -1 >> para cada falsa laranja contada/identificada
 
-Autores: 
+### Autores: 
 
 - Camila Gois de Jesus;
 - Emanuel Oliveira Salvador Souza;
