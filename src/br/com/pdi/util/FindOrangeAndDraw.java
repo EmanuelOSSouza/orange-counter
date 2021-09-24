@@ -28,7 +28,7 @@ public class FindOrangeAndDraw {
         if (hierarchy.size().height > 0 && hierarchy.size().width > 0){
             //Draw Contours
             for (int idx = 0; idx >= 0; idx = (int) hierarchy.get(0, idx)[0]){
-                    Imgproc.drawContours(image, contours, idx, new Scalar(246, 85, 27),2);
+                    Imgproc.drawContours(image, contours, idx, new Scalar(246, 85, 27), 2);
             }
         }	
 	return image;

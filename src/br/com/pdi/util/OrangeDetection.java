@@ -19,21 +19,18 @@ public class OrangeDetection {
  
     public int hueStart = 5; // range: 0 - 180
     public int hueStop = 15; // range: 0 - 180
-    public int saturationStart = 50; // range: 0 - 255
+    public int saturationStart = 100; // range: 0 - 255
     public int saturationStop = 255; // range: 0 - 255
-    public int valueStart = 50; // range: 0 - 255
+    public int valueStart = 70; // range: 0 - 255
     public int valueStop = 255; // range: 0 - 255
     
     public Mat orangeDetection(Mat src){
         // Mat Objects
-        Mat gray = new Mat();
         Mat blurredImage = new Mat();
         Mat hsvImage = new Mat();
         Mat mask = new Mat();
         Mat morphOutput = new Mat();
         Mat image = new Mat();
-        //Convert BGR to GRAY scale
-        Imgproc.cvtColor(src, gray, Imgproc.COLOR_BGR2GRAY);
         //Blur image - Desfocar
         Imgproc.blur(src, blurredImage, new Size(13, 13));
         // Convert to HSV

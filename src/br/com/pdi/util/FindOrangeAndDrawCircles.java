@@ -31,7 +31,7 @@ public class FindOrangeAndDrawCircles {
             double[] c = circles.get(0, x);
             Point center = new Point(Math.round(c[0]), Math.round(c[1]));
             // circle center
-            Imgproc.circle(original, center, 1, new Scalar(0,100,100), 3, 8, 0 );
+            Imgproc.circle(original, center, 2, new Scalar(0,100,100), 3, 8, 0 ); 
             // circle outline
             int radius = (int) Math.round(c[2]);
             //Draw circles
